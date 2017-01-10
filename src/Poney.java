@@ -19,6 +19,10 @@ public class Poney
 	double nbPoilsCriniere;
 	Bool isCheval;
 	Bool isBool;
+
+	public String getName(){
+		return this.Name;
+	}
 	
 	
 }
