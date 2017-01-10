@@ -20,5 +20,10 @@ public class Poney
 	Bool isCheval;
 	Bool isBool;
 	
+	public void setName(String Name)
+	{
+		this.Name = Name;
+	}
+	
 	
 }
