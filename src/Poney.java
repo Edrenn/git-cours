@@ -24,5 +24,10 @@ public class Poney
 		return this.Name;
 	}
 	
+	public void setName(String Name)
+	{
+		this.Name = Name;
+	}
+	
 	
 }
