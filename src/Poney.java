@@ -28,6 +28,11 @@ public class Poney
 	{
 		this.Name = Name;
 	}
+
+	public void setHerName(String Name)
+	{
+		this.Name = Name;
+	}
 	
 	
 }
