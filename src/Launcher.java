@@ -1,4 +1,4 @@
-
+import fr.imie.gitn1.bdd.*;
 
 public class Launcher {
 
@@ -20,6 +20,10 @@ public class Launcher {
 		Courir course1 = new Courir(1,1,1,3);
 		Courir course2 = new Courir(1,2,2,2);
 		Courir course3 = new Courir(1,3,3,1);
+		
+		Connect connection = new Connect();
+		
+		connection.connect();
 
 	}
 
