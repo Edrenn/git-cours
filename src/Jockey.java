@@ -1,21 +1,36 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 
 public class Jockey 
 {
-	String name;
-	String poneyName;
-	String makeAmericaGreatAgain;
-	int age;
-	int victoire;
-	int defaite;
-	int nbCompetitions;
-	int nbDents;
-	int sizePoutreDeBamako;
-	int nbPtsGodWin;
-	Bool haveBeard;
-	Bool isHipster;
-	Bool isNazi;
-	Bool isIz;
+	int id;
+	String firstName;
+	String lastName;
+	int weight;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
 	
 }

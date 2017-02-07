@@ -1,38 +1,33 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 
 public class Poney 
 {
-	String Name;
-	String jockeyName;
-	String carburant;
-	String marque;
-	int age;
-	int victoire;
-	int defaite;
-	int nbCompetitions;
-	int nbPattes;
-	int nbDents;
-	int maxSpeed;
-	int maxFlyingSpeed;
-	double matricule;
-	double nbPoilsCriniere;
-	Bool isCheval;
-	Bool isBool;
 
-	public String getName(){
-		return this.Name;
+	int id;
+	String name;
+	int weight;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
 	}
 	
-	public void setHisName(String Name)
-	{
-		this.Name = Name;
+	public Poney(){
+		
 	}
-
-	public void setHerName(String Name)
-	{
-		this.Name = Name;
-	}
-	
 	
 }
