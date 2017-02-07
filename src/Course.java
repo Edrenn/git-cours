@@ -4,7 +4,7 @@ import java.sql.Date;
 public class Course {
 
 	int id;
-	Date date;
+	String date;
 	
 	public int getId() {
 		return id;
@@ -12,14 +12,14 @@ public class Course {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Date getDate() {
+	public String getDate() {
 		return date;
 	}
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
 	
-	public Course(int newId, Date newDate)
+	public Course(int newId, String newDate)
 	{
 		setId(newId);
 		setDate(newDate);
