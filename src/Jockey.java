@@ -8,7 +8,7 @@ public class Jockey
 	String makeAmericaGreatAgain;
 	int age;
 	int victoire;
-	int défaite;
+	int defaite;
 	int nbCompetitions;
 	int nbDents;
 	int sizePoutreDeBamako;

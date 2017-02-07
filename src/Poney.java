@@ -9,7 +9,7 @@ public class Poney
 	String marque;
 	int age;
 	int victoire;
-	int défaite;
+	int defaite;
 	int nbCompetitions;
 	int nbPattes;
 	int nbDents;
