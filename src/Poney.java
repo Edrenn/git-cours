@@ -26,8 +26,11 @@ public class Poney
 		this.weight = weight;
 	}
 	
-	public Poney(){
-		
+	public Poney(int newId, String newName, int newWeight)
+	{
+		setId(newId);
+		setName(newName);
+		setWeight(newWeight);
 	}
 	
 }

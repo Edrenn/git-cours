@@ -18,4 +18,10 @@ public class Course {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+	
+	public Course(int newId, Date newDate)
+	{
+		setId(newId);
+		setDate(newDate);
+	}
 }

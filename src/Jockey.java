@@ -32,5 +32,11 @@ public class Jockey
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
+	public Jockey(int newId, String newFirstName, String newLastName, int newWeight) {
+		setId(id);
+		setFirstName(newFirstName);
+		setLastName(newLastName);
+		setWeight(newWeight);
+	}
 	
 }

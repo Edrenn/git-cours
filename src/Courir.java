@@ -30,4 +30,12 @@ public class Courir {
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
+	
+	public Courir(int newIdCourse,int newIdPoney,int newIdJockey,int newRank)
+	{
+		setIdCourse(newIdCourse);
+		setIdPoney(newIdPoney);
+		setIdJockey(newIdJockey);
+		setRank(newRank);
+	}
 }
